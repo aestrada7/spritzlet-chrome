@@ -1,7 +1,11 @@
 {
   "manifest_version": 2,
   "name": "Spritzlet Extension",
-  "version": "1.0",
+  "version": "1.0.1",
+  "description": "Wrapper for Spritzlet. Allows you to read any website or selection using Spritz.",
+  "icons": { "128": "icon.png" },
+  "author": "aestrada7",
+  "offline_enabled": true,
   "content_scripts": [
     {
       "matches": [
